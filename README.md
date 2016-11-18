@@ -11,10 +11,9 @@ _This webpage displays a form with bootstrap, divs, checkboxes, ids, classes, jQ
 ## Setup/Installation Requirements
 
 * _Clone this repository_
-    _To clone using Git, use the following terminal command:_
-    __
-* _Open in text editor of your choice_
-*
+* _gem install sass_
+* _sass styles.scss_
+* _sass watch ._
 
 ## Known Bugs
 
