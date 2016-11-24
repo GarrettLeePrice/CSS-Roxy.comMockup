@@ -1,6 +1,6 @@
-# _Name_
+# _CSS Template_
 
-#### _Project: functions for Epicodus, Date:_
+#### _Project: CSS Template Date:_
 
 #### By _**Megan Kaluza**_
 
@@ -10,10 +10,10 @@ _This webpage displays a form with bootstrap, divs, checkboxes, ids, classes, jQ
 
 ## Setup/Installation Requirements
 
-* _Clone this repository_
+* _Clone this repository https://github.com/megankaluza/css_template.git_
 * _gem install sass_
 * _sass styles.scss_
-* _sass watch ._
+* _sass --watch ._
 
 ## Known Bugs
 
@@ -23,12 +23,12 @@ _No known bugs at this time_
 
 ## Technologies Used
 
-_HTML_
-_CSS_
-_Bootstrap_
-_Google Fonts_
-_jQuery_
-_JavaScript_
+* _HTML_
+* _CSS_
+* _Bootstrap_
+* _Google Fonts_
+* _jQuery_
+* _JavaScript_
 
 ### License
 
