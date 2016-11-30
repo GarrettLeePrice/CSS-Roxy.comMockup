@@ -25,11 +25,16 @@ p {
 .row2 {
   padding-top: 3em;
   text-align: center;
-  background-color: #f2f4f2; }
+  background-color: #f2f4f2;
+  width: 100%; }
   .row2 h1 {
     text-align: center;
     letter-spacing: 5px;
     font-size: 1.5em; }
+
+.row2Wrap {
+  max-width: 100em;
+  margin: 0 25%; }
 
 .nav li {
   padding: 1% 0;
@@ -59,7 +64,13 @@ p {
 
 .newArrivalsTile {
   max-width: 540px;
-  margin: auto; }
+  margin: auto;
+  float: left; }
+
+.newArrivalsTileRight1 {
+  float: left;
+  display: block;
+  margin: 0 2% 5.7% 0; }
 
 #beanies {
   display: block;

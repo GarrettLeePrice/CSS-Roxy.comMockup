@@ -30,11 +30,17 @@ p {
   padding-top: 3em;
   text-align: center;
   background-color: $whitesmoke;
+  width: 100%;
   h1 {
     text-align: center;
     letter-spacing: 5px;
     font-size: 1.5em;
   }
+}
+
+.row2Wrap {
+  max-width: 100em;
+  margin: 0 25%;
 }
 
 .nav {
@@ -80,6 +86,13 @@ p {
 .newArrivalsTile {
   max-width: 540px;
   margin: auto;
+  float: left;
+}
+
+.newArrivalsTileRight1 {
+  float:left;
+  display: block;
+  margin: 0 2% 5.7% 0;
 }
 
 #beanies {
