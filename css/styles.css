@@ -3,7 +3,23 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding: 0;
   box-sizing: border-box; }
 
-body {
-  background-color: pink; }
+#logo {
+  width: 60%;
+  margin: 0 0 20px 0; }
+
+.nav li {
+  padding: 1% 0;
+  font-size: 12px; }
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%;
+  margin: 0; }
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none; }
+
+.item {
+  width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */
