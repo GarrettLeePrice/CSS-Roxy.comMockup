@@ -1,26 +1,53 @@
 @import "_reset.scss";
 
-body {
-  // background-color: $pink;
+$whitesmoke: #f2f4f2;
+
+hr {
+  width: 15%;
+  border: 1px solid black;
 }
 
+span {
+  font-size: 1.1em;
+  letter-spacing: 3px;
+}
 
-#logo {
-  width:60%;
-  margin: 0 0 20px 0;
+p {
+  font-size: .7em;
+}
+
+.row1 {
+  text-align: center;
+  h1 {
+    margin-top: 3em;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 1.5em;
+  }
+}
+
+.row2 {
+  padding-top: 3em;
+  text-align: center;
+  background-color: $whitesmoke;
+  h1 {
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 1.5em;
+  }
 }
 
 .nav {
   li {
-  padding: 1% 0;
-  font-size: 12px;
-}
+    padding: 1% 0;
+    font-size: 12px;
+  }
 }
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-    width: 100%;
-    margin: 0;
+  width: 100%;
+  margin: 0;
 }
 
 .carousel-control {
@@ -33,7 +60,34 @@ body {
   width: 100%;
 }
 
+.small {
+  font-size: 5px;
+}
+
+.clearfix {
+  &:before,
+  &:after {
+    clear: both;
+    margin-top: 3em;
+  }
+}
+
+.newArrivalsText {
+  background-color: white;
+  max-width: 100%;
+}
+
+.newArrivalsTile {
+  max-width: 540px;
+  margin: auto;
+}
+
 #beanies {
   display: block;
   margin: 0 auto;
+}
+
+#logo {
+  width:60%;
+  margin: 0 0 20px 0;
 }

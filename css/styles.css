@@ -3,9 +3,33 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding: 0;
   box-sizing: border-box; }
 
-#logo {
-  width: 60%;
-  margin: 0 0 20px 0; }
+hr {
+  width: 15%;
+  border: 1px solid black; }
+
+span {
+  font-size: 1.1em;
+  letter-spacing: 3px; }
+
+p {
+  font-size: .7em; }
+
+.row1 {
+  text-align: center; }
+  .row1 h1 {
+    margin-top: 3em;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 1.5em; }
+
+.row2 {
+  padding-top: 3em;
+  text-align: center;
+  background-color: #f2f4f2; }
+  .row2 h1 {
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 1.5em; }
 
 .nav li {
   padding: 1% 0;
@@ -22,8 +46,27 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .item {
   width: 100%; }
 
+.small {
+  font-size: 5px; }
+
+.clearfix:before, .clearfix:after {
+  clear: both;
+  margin-top: 3em; }
+
+.newArrivalsText {
+  background-color: white;
+  max-width: 100%; }
+
+.newArrivalsTile {
+  max-width: 540px;
+  margin: auto; }
+
 #beanies {
   display: block;
   margin: 0 auto; }
+
+#logo {
+  width: 60%;
+  margin: 0 0 20px 0; }
 
 /*# sourceMappingURL=styles.css.map */
