@@ -3,6 +3,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding: 0;
   box-sizing: border-box; }
 
+h1 {
+  margin-bottom: 3em;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 1.5em; }
+
 hr {
   width: 15%;
   border: 1px solid black; }
@@ -13,6 +19,15 @@ span {
 
 p {
   font-size: .7em; }
+
+footer {
+  margin-top: 3em;
+  height: 10vh;
+  background-color: black; }
+  footer h1 {
+    text-align: center;
+    padding: 2em;
+    color: #f2f4f2; }
 
 .row1 {
   text-align: center; }
@@ -57,6 +72,10 @@ p {
 .clearfix:before, .clearfix:after {
   clear: both;
   margin-top: 3em; }
+
+.mini {
+  width: 100%;
+  filter: grayscale(100%); }
 
 .newArrivalsText {
   background-color: white;

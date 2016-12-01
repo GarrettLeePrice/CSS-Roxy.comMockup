@@ -2,6 +2,13 @@
 
 $whitesmoke: #f2f4f2;
 
+h1 {
+  margin-bottom: 3em;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 1.5em;
+}
+
 hr {
   width: 15%;
   border: 1px solid black;
@@ -14,6 +21,17 @@ span {
 
 p {
   font-size: .7em;
+}
+
+footer {
+  margin-top: 3em;
+  height: 10vh;
+  background-color: black;
+    h1{
+      text-align: center;
+      padding: 2em;
+      color: $whitesmoke;
+    }
 }
 
 .row1 {
@@ -76,6 +94,11 @@ p {
     clear: both;
     margin-top: 3em;
   }
+}
+
+.mini {
+  width: 100%;
+  filter: grayscale(100%);
 }
 
 .newArrivalsText {
