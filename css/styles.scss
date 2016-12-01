@@ -46,6 +46,7 @@ footer {
 
 .row2 {
   padding-top: 3em;
+  margin-left: 30px;
   text-align: center;
   background-color: $whitesmoke;
   width: 100%;
@@ -56,10 +57,10 @@ footer {
   }
 }
 
-.row2Wrap {
-  max-width: 100em;
-  margin: 0 25%;
-}
+// .row2Wrap {
+//   max-width: 100em;
+//   margin: 0 25%;
+// }
 
 .nav {
   li {
@@ -106,15 +107,24 @@ footer {
   max-width: 100%;
 }
 
+.newArrivalsText1 {
+  background-color: white;
+  max-width: 100%;
+}
+
 .newArrivalsTile {
   max-width: 540px;
-  margin: auto;
-  float: left;
+  float: right;
+
+
+  // margin: auto;
+  // float: left;
+
 }
 
 .newArrivalsTileRight1 {
   float:left;
-  display: block;
+  // display: block;
   margin: 0 2% 5.7% 0;
 }
 
@@ -122,11 +132,19 @@ footer {
   margin-bottom: 20px;
 }
 
+
+
 #beanies {
   display: block;
   margin: 0 auto;
 }
+#bottomRight {
+  padding-top: 500px;
+}
 
 #logo {
   width:60%;
+}
+#left {
+  margin-left: 500px;
 }
