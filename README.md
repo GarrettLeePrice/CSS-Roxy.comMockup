@@ -1,19 +1,17 @@
-# _CSS Template_
+# _Roxy.com/snow Mock-Up_
 
-#### _Project: CSS Template Date:_
+#### _12/1/16_
 
-#### By _**Megan Kaluza**_
+#### By _**Megan Kaluza & Garrett Price**_
 
 ## Description
 
-_This webpage displays a form with bootstrap, divs, checkboxes, ids, classes, jQuery, JavaScript, functions, and CSS that initiate a survey to decide which remaining classes to take at Epicodus. My HTML and .js pages include comments to organize and continue building my webpage_
+_This webpage is a re-creation of the roxy.com/snow website. This Mock site is built to be fully responsive using bootstrap/HTML/CSS_
 
 ## Setup/Installation Requirements
 
-* _Clone this repository https://github.com/megankaluza/css_template.git_
-* _gem install sass_
-* _sass styles.scss_
-* _sass --watch ._
+* _Clone this repository form github
+* _Open index.html in your favorite web browser_
 
 ## Known Bugs
 
@@ -21,18 +19,19 @@ _No known bugs at this time_
 
 ## Support and contact details
 
+_garrettleeprice@gmail.com_
+
 ## Technologies Used
 
 * _HTML_
 * _CSS_
 * _Bootstrap_
 * _Google Fonts_
-* _jQuery_
-* _JavaScript_
+
 
 ### License
 
-Copyright (c) 2016 **_Megan Kaluza_**
+Copyright (c) 2016 **_Megan Kaluza & Garrett Price_**
 
 This software is licensed under the MIT license.
 

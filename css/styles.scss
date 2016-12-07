@@ -9,6 +9,7 @@ h1 {
   font-size: 1.5em;
 }
 
+
 hr {
   width: 15%;
   border: 1px solid black;
@@ -24,14 +25,23 @@ p {
 }
 
 footer {
-  margin-top: 3em;
-  height: 10vh;
-  background-color: black;
-    h1{
+  margin-top: 30em;
+  height: 300px;
+  width:100%;
+
+
+
+  // background-color: black;
+    h2 {
       text-align: center;
+      color: white!important;
       padding: 2em;
-      color: $whitesmoke;
     }
+}
+
+.btn {
+margin-left: 50%;
+margin-right: 50%;
 }
 
 .row1 {
@@ -41,10 +51,12 @@ footer {
     text-align: center;
     letter-spacing: 5px;
     font-size: 1.5em;
+    display: inline;
   }
 }
 
 .row2 {
+  width: 100vw;
   padding-top: 3em;
   margin-left: 30px;
   text-align: center;
@@ -147,4 +159,10 @@ footer {
 }
 #left {
   margin-left: 500px;
+}
+
+ .btn-default {
+  margin-left: 200px;
+  background-color: black;
+
 }
